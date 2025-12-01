@@ -1,0 +1,10 @@
+// outputs
+// ---
+output "ASUSTek COMPUTER INC VG27AQ3A S7LMAS007908" {
+	// off
+	mode "2560x1440@180.001"
+	variable-refresh-rate on-demand=true
+	scale 1
+	transform "normal"
+	position x=0 y=0
+}
