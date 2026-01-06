@@ -8,8 +8,17 @@ window-rule {
 	match app-id=r#"^thunar$"# title=".*Rename.*"
 	match app-id=r#"^thunar$"# title=".*Operation.*"
 	match app-id="pinentry-gtk"
+	match app-id="yad"
 
 	open-floating true
+}
+
+// fullscreen windows on open
+// ---
+window-rule {
+	match app-id="steam_app_*"
+
+	open-fullscreen true
 }
 
 // have steam notifications not popup bottom right

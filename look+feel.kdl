@@ -1,7 +1,7 @@
 // windows layout and effects
 // ---
 layout {
-	gaps 16
+	gaps 12
 	center-focused-column "never"
 	always-center-single-column
 	//default-column-display "tabbed"
@@ -28,23 +28,23 @@ layout {
 		proportion 1.0
 	}
 
+	// draw a border around windows
+	// ---
+	border {
+		// off
+		width 1
+		active-color "#939ab7"
+		inactive-color "#6e738d"
+	}
+
 	// draw a ring around focused window
 	// ---
 	focus-ring {
 		//off
-		width 2
+		width 1
 		active-gradient from="#8aadf4" to="#8bd5ca" in="oklch shorter hue"
 		active-color "#8aadf4"
 		inactive-color "#ffffff00"
-	}
-
-	// draw a border around windows
-	// ---
-	border {
-		//off
-		width 1
-		active-color "#939ab7"
-		inactive-color "#6e738d"
 	}
 
 	// drop shadows for windows

@@ -131,6 +131,10 @@ binds {
 	Mod+Print	 		allow-inhibiting=false { screenshot-window; }
 	Mod+Shift+Print	allow-inhibiting=false { screenshot-screen show-pointer=true; }
 
+	// misc
+	// ---
+	Mod+I		{ spawn-sh "wl-copy \"$(yad --color)\""; }
+
 	// quit the application
 	//---
 	Mod+Shift+E       allow-inhibiting=false	{ quit; }
