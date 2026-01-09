@@ -26,7 +26,8 @@ binds {
 	Mod+4			allow-inhibiting=false { spawn "waypaper"; }
 	// Alt+Space	allow-inhibiting=false { spawn "fuzzel"; }
 	Alt+Space	allow-inhibiting=false { spawn-sh "qs ipc call launcher open"; }
-	Super+L		allow-inhibiting=false { spawn-sh "/usr/local/bin/lockscreen.sh"; }
+	// Mod+L		allow-inhibiting=false { spawn-sh "/usr/local/bin/lockscreen.sh"; }
+	Mod+L			allow-inhibiting=false { spawn-sh "qs ipc call lock lockScreen"; }
 
 	// volume keys mappings
 	// ---
