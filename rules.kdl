@@ -9,6 +9,7 @@ window-rule {
 	match app-id=r#"^thunar$"# title=".*Operation.*"
 	match app-id="pinentry-gtk"
 	match app-id="yad"
+	match app-id="org.quickshell"
 
 	open-floating true
 }
