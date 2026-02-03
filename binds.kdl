@@ -25,7 +25,8 @@ binds {
 	Mod+3			allow-inhibiting=false { spawn "brave";}
 	Mod+4			allow-inhibiting=false { spawn "waypaper"; }
 	// Alt+Space	allow-inhibiting=false { spawn "fuzzel"; }
-	Alt+Space	allow-inhibiting=false { spawn-sh "qs ipc call launcher open"; }
+	// Alt+Space	allow-inhibiting=false { spawn-sh "qs ipc call launcher open"; }
+	Alt+Space	allow-inhibiting=false { spawn-sh "qs -c /home/andrel/Projects/rdnashell ipc call launcher open"; }
 	// Mod+L		allow-inhibiting=false { spawn-sh "/usr/local/bin/lockscreen.sh"; }
 	Mod+L			allow-inhibiting=false { spawn-sh "qs ipc call lock lockScreen true"; }
 

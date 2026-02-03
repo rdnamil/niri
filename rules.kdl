@@ -46,7 +46,7 @@ layer-rule {
 layer-rule {
 	match namespace="launcher"
 	shadow {
-		on
+		// on
 		softness 30
 		spread 0
 		draw-behind-window true
